@@ -1,0 +1,21 @@
+Python API Homework - What's the Weather Like?
+Analysis
+
+1 . It was noticed in the analysis that cities had higher temperatures the closer they were to the equator.
+    Applying linear regression to the north hemisphern cities, 
+        there was found to be a high positive correlation between the maximum temperature and the latitude. 
+    The data showed that the closer the latitude to the equator, the higher the temperature was and vice versa
+    This wasn't observed with the southern hemisphere cities as the regression level was low positive.
+    This could be due to the sample size of the data and that there were over twice as many cities ound in the northern 
+        hemisphere than the southern. This geographly makes sense.
+        
+2.  The data could not conclude that there was a correlation between the humidity vs latitude of cities nor latitude vs 
+        cloudiness and latitude vs wind speed. Thios was thesame in  both northern and southern hemispheres
+        
+3.  There seemed to be a link between humidity and latitude more in northern hemisphere however the regression model does not find
+        any strong correlation. More information could be pulled out if there was a humidity vs max temperature.
+        
+4.  On average it was found minimum temperatures in the southern hemisper were a lot warmer then northern on the 1/14/21. 
+        Averages found were 2C in the northern and 23C in southern hemisphere
+        This could be due to the seasons that both hemispheres are experiencing. 
+        Also, due to more ocean to land in the southern hemisphere, temperatures do not shift very low
